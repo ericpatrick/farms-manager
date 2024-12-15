@@ -1,12 +1,5 @@
-export type FarmFormType = {
-  farmName: string;
-  landArea: string;
-  landUnit: string;
-  cropProductions: CropProductionsFormType[];
-};
+import { CropProductionType, FarmType } from './Farm.type';
 
-type CropProductionsFormType = {
-  cropTypeId: number;
-  isIrrigated: boolean;
-  isInsured: boolean;
-};
+export type FarmFormType = Omit<FarmType, 'id' | 'cropProductions'> & { cropProductions: CropProductionsFormType[] };
+
+type CropProductionsFormType = Omit<CropProductionType, 'id'>;

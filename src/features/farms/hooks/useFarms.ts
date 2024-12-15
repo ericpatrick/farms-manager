@@ -3,7 +3,7 @@ import { apiRoutes } from '../../../api/api';
 import { useApi } from '../../../hooks/useApi';
 
 export function useFarms() {
-  const { loading, data, error } = useApi<FarmType[]>(apiRoutes.farms, 'get');
+  const { loading, data, error, fetchReload } = useApi<FarmType[]>(apiRoutes.farms, 'get');
 
-  return { loading, farms: data ?? [], error };
+  return { loading, farms: data ?? [], error, farmsReload: fetchReload };
 }

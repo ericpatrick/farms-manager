@@ -7,6 +7,7 @@ import { CropProductionForm } from './CropProductionsForm';
 import { farmFormContainerStyles, farmFormSubmitButtonStyles, farmFormTextFiledStyles } from './FarmForm.styles';
 import { useAddFarm } from '../../hooks/useAddFarm';
 import { useNavigate } from 'react-router';
+import { useNotifications } from '../../../../hooks/useNotifications';
 
 export function FarmForm() {
   const {
@@ -21,10 +22,17 @@ export function FarmForm() {
   });
   const { loading, addFarm } = useAddFarm();
   const navigate = useNavigate();
+  const { showNotification } = useNotifications();
 
   const onSubmit: SubmitHandler<FarmFormType> = async (data) => {
-    await addFarm(data);
-    navigate(-1);
+    try {
+      await addFarm(data);
+      navigate(-1);
+      showNotification('Farm added with success');
+    } catch (error) {
+      console.error(error);
+      showNotification('Something Wrong happened during farm add. Please, retry it later');
+    }
   };
 
   return (
@@ -49,6 +57,14 @@ export function FarmForm() {
         field="landUnit"
         register={register}
         errorMessage={errors.landUnit?.message}
+        sx={farmFormTextFiledStyles}
+      />
+      <FarFormTextField
+        label="Address"
+        field="address"
+        register={register}
+        errorMessage={errors.address?.message}
+        required={false}
         sx={farmFormTextFiledStyles}
       />
       <CropProductionForm control={control} errorMessage={errors.cropProductions?.message} />

@@ -6,6 +6,7 @@ export function useApi<T>(url: string, method: 'get' | 'post' | 'put' | 'delete'
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<Nullable<Error>>(null);
   const [data, setData] = useState<T>();
+  const [reload, setReload] = useState(false);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -19,7 +20,11 @@ export function useApi<T>(url: string, method: 'get' | 'post' | 'put' | 'delete'
       .finally(() => setLoading(false));
 
     return () => controller.abort();
-  }, [url, method]);
+  }, [url, method, reload]);
 
-  return { loading, data, error };
+  const fetchReload = () => {
+    setReload((reload) => !reload);
+  };
+
+  return { loading, data, error, fetchReload };
 }

@@ -1,4 +1,3 @@
-import { useDeleteFarm } from '../hooks/useDeleteFarm';
 import { FarmType } from '../types/Farm.type';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -10,14 +9,15 @@ import Button from '@mui/material/Button';
 import { CropProductionCard } from './CropProductionCard';
 import { useCropTypes } from '../hooks/useCropTypes';
 import { farCardContainerStyles, farmCardAreaFieldStyles } from './FarmCard.styles';
-import { ConfirmationDialog } from './ConfirmationDialog';
-import { useState } from 'react';
 
-export type FarmCardProps = FarmType & { onDelete?: (info: { id: string; farmName: string }) => void };
+export type FarmCardProps = {
+  farm: FarmType;
+  onDelete?: (farm: FarmType) => void;
+};
 
-export function FarmCard({ id, farmName, landArea, landUnit, cropProductions, onDelete }: FarmCardProps) {
-  const { deleteFarm } = useDeleteFarm();
+export function FarmCard({ farm, onDelete }: FarmCardProps) {
   const { loading, cropTypes } = useCropTypes();
+  const { farmName, landArea, landUnit, address, cropProductions } = farm;
 
   const cropTypesMap = cropTypes.reduce(
     (acc, item) => {
@@ -27,8 +27,7 @@ export function FarmCard({ id, farmName, landArea, landUnit, cropProductions, on
     {} as Record<string, string>,
   );
   const handleDeleteFarm = () => {
-    onDelete?.({ id, farmName });
-    // deleteFarm(id);
+    onDelete?.(farm);
   };
 
   return (
@@ -41,6 +40,13 @@ export function FarmCard({ id, farmName, landArea, landUnit, cropProductions, on
             <br />
             {landArea} {landUnit}
           </Typography>
+          {address && (
+            <Typography variant="body2" sx={farmCardAreaFieldStyles}>
+              <strong>Address:</strong>
+              <br />
+              {address}
+            </Typography>
+          )}
           <Box>
             <Typography variant="body2">
               <strong>Crop Productions:</strong>

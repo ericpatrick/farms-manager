@@ -3,7 +3,8 @@ export type FarmType = {
   farmName: string;
   landArea: number;
   landUnit: string;
-  cropProductions: CropProductionType[]
+  address?: string;
+  cropProductions: CropProductionType[];
 };
 
 export type CropProductionType = {
@@ -11,4 +12,4 @@ export type CropProductionType = {
   cropTypeId: number;
   isIrrigated: boolean;
   isInsured: boolean;
-}
+};

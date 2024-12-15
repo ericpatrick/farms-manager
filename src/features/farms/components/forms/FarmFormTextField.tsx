@@ -12,6 +12,7 @@ type FarmFormTextFieldProps = {
   register: UseFormRegister<FarmFormType>;
   sx?: SxProps;
   type?: React.HTMLInputTypeAttribute | undefined;
+  required?: boolean;
 };
 
 export function FarFormTextField({
@@ -21,11 +22,12 @@ export function FarFormTextField({
   errorMessage,
   sx = {},
   type = 'text',
+  required = true,
 }: FarmFormTextFieldProps) {
   return (
     <TextField
       error={!!errorMessage}
-      {...register(field, { required: 'Required Field' })}
+      {...register(field, { required: required ? 'Required Field' : false })}
       label={label}
       type={type}
       helperText={errorMessage}
