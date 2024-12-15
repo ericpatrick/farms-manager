@@ -1,0 +1,927 @@
+{
+  "farms": [
+    {
+      "id": "1",
+      "farmName": "Farm 1",
+      "landArea": 100,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "id": 1,
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "id": 2,
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "dd49",
+      "farmName": "Farm 46",
+      "landArea": 393,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "8458",
+      "cropProductions": [
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 1,
+          "isIrrigated": false,
+          "isInsured": true
+        },
+        {
+          "cropTypeId": 4,
+          "isIrrigated": false,
+          "isInsured": true
+        },
+        {
+          "cropTypeId": 5,
+          "isIrrigated": true,
+          "isInsured": true
+        }
+      ],
+      "farmName": "New Farm",
+      "landArea": "850",
+      "landUnit": "acres"
+    },
+    {
+      "id": "f3b1",
+      "farmName": "Farm 25",
+      "landArea": 61,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "693c",
+      "farmName": "Farm 3",
+      "landArea": 25,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "ef73",
+      "farmName": "Farm 24",
+      "landArea": 52,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "d01d",
+      "farmName": "Farm 39",
+      "landArea": 64,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "4278",
+      "farmName": "Farm 58",
+      "landArea": 68,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "12a0",
+      "farmName": "Farm 39",
+      "landArea": 28,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "fdf3",
+      "farmName": "Farm 65",
+      "landArea": 12,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "2142",
+      "farmName": "Farm 56",
+      "landArea": 30,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "809a",
+      "farmName": "Farm 83",
+      "landArea": 95,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "f746",
+      "farmName": "Farm 49",
+      "landArea": 14,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "0cbc",
+      "farmName": "Farm 84",
+      "landArea": 24,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "ba35",
+      "farmName": "Farm 16",
+      "landArea": 43,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "4f59",
+      "farmName": "Farm 86",
+      "landArea": 52,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "c105",
+      "farmName": "Farm 82",
+      "landArea": 78,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "e639",
+      "farmName": "Farm 53",
+      "landArea": 42,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "8c4a",
+      "farmName": "Farm 66",
+      "landArea": 16,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "a79b",
+      "farmName": "Farm 22",
+      "landArea": 59,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "b6a9",
+      "farmName": "Farm 95",
+      "landArea": 10,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "3c6c",
+      "farmName": "Farm 31",
+      "landArea": 68,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "cc29",
+      "farmName": "Farm 94",
+      "landArea": 6,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "9d09",
+      "farmName": "Farm 95",
+      "landArea": 71,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "1d61",
+      "farmName": "Farm 23",
+      "landArea": 88,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "6640",
+      "farmName": "Farm 85",
+      "landArea": 83,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "7ab3",
+      "farmName": "Farm 86",
+      "landArea": 97,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "34a1",
+      "farmName": "Farm 58",
+      "landArea": 20,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "c1e1",
+      "farmName": "Farm 19",
+      "landArea": 86,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "1e2b",
+      "farmName": "Farm 26",
+      "landArea": 20,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "64ff",
+      "farmName": "Farm 45",
+      "landArea": 77,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "fd37",
+      "farmName": "Farm 40",
+      "landArea": 6,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "9e9c",
+      "farmName": "Farm 52",
+      "landArea": 99,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "6b2d",
+      "farmName": "Farm 94",
+      "landArea": 91,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "451f",
+      "farmName": "Farm 3",
+      "landArea": 15,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "73d1",
+      "farmName": "Farm 86",
+      "landArea": 62,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "f52e",
+      "farmName": "Farm 83",
+      "landArea": 71,
+      "landUnit": "hectares",
+      "cropProductions": [
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        }
+      ]
+    },
+    {
+      "id": "0788",
+      "cropProductions": [
+        {
+          "cropTypeId": 2,
+          "isIrrigated": false,
+          "isInsured": false
+        }
+      ],
+      "farmName": "Farm With Address",
+      "landArea": "125",
+      "landUnit": "Hectares",
+      "address": "Goianesia-GO"
+    },
+    {
+      "id": "5ede",
+      "cropProductions": [
+        {
+          "cropTypeId": 3,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 2,
+          "isIrrigated": false,
+          "isInsured": true
+        },
+        {
+          "cropTypeId": 1,
+          "isIrrigated": true,
+          "isInsured": true
+        },
+        {
+          "cropTypeId": 4,
+          "isIrrigated": true,
+          "isInsured": false
+        },
+        {
+          "cropTypeId": 5,
+          "isIrrigated": false,
+          "isInsured": true
+        }
+      ],
+      "farmName": "Farm With Adress 2",
+      "landArea": "65",
+      "landUnit": "Hectares",
+      "address": "Londrina-PR"
+    }
+  ],
+  "crop-types": [
+    {
+      "id": "1",
+      "name": "RICE"
+    },
+    {
+      "id": "2",
+      "name": "BEANS"
+    },
+    {
+      "id": "3",
+      "name": "CORN"
+    },
+    {
+      "id": "4",
+      "name": "COFFEE"
+    },
+    {
+      "id": "5",
+      "name": "SOYBEAN"
+    }
+  ]
+}
