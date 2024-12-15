@@ -1,50 +1,35 @@
-# React + TypeScript + Vite
+# Farms Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Farm and plantation management project with basic features such as: adding farms, linking plantations to farms and removing data from registered farms. The aim of the project is to demonstrate some of React's features, such as build-in hooks, custom hooks, context, props and state, as well as good programming practices, such as folder organization, clean code, separation of responsibility, modularization, lazy load, etc.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project structure
 
-## Expanding the ESLint configuration
+The folder structure was organized following good organizational practices used by large applications. Within the `src` folder we have other folders that store resources used by all the application modules, with the exception of the `features`, `pages` and `layouts` folders. The `features` folder is responsible for separating the resources of each application module, such as hooks, components and data models. The `pages` folder stores the root components of each route in the application. The `layouts` folder stores components with common layouts between certain pages, such as HomeLayout, which contains the common layout for the entire application.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Requirement
 
-- Configure the top-level `parserOptions` property like this:
+NodeJS 18+
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Instalation and running locally
+
+To install project dependencies, run the following command:
+
+```bash
+npm install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+After that, just run the command `npm run dev` to compile and run the server. The project will run at [http://localhost:5173](http://localhost:5173).
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Generating artifacts
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+To generate project artifacts to deploy application, run the `npx run build` command. The execution result will be in the `dist` folder in the project root. This can be served by the web server of your choice.
+
+## Improvements
+
+- UI/UX improvements
+- Responsiveness improvements
+- Unit and E2E tests
+- Add more resource (search for a farm, paginated results, update farm, add crop productions, etc)
+- CI/CD pipeline
